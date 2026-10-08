@@ -1,0 +1,51 @@
+FICHA · Cuánto cuesta de verdad
+
+NOMBRE DEL PROYECTO
+Cuánto cuesta de verdad
+
+EN UNA FRASE
+Es una aplicación donde ponés el precio de contado y las cuotas de algo que querés comprar, y te dice cuánto dinero pagás de más por comprarlo a plazos.
+
+PARA QUIÉN ES
+Para mi tía Marta, que vende ropa en el mercado y le ofrecieron una refrigeradora a 12 cuotas. Ella ve la cuota y le parece barata, pero nunca suma cuánto termina pagando en total. (Cambiala por una persona real que conozcas.)
+
+QUÉ LOGRA
+Resuelve el problema de no saber cuánto cuesta realmente comprar a cuotas. Hace la resta que casi nadie hace: lo que pagás en total menos el precio de contado.
+
+LOS TRES VERBOS
+
+Escribir el precio de contado.
+Escribir las cuotas (cuántas son y de cuánto es cada una).
+Calcular (y limpiar para empezar de nuevo).
+
+TERMINA BIEN SI…
+El usuario ve el total que pagaría en cuotas, cuánto paga de más en dólares y en porcentaje. También termina bien si las cuotas suman igual o menos que el contado: ahí la app le dice que no paga de más.
+
+TERMINA MAL SI…
+Deja un campo vacío, pone cero o un número negativo, o pone un número de cuotas que no es entero o que pasa el máximo. La app no calcula y le avisa con un mensaje claro qué corregir.
+
+QUÉ SE VE EN PANTALLA
+Siempre visibles: los tres campos (precio de contado, número de cuotas, valor de cada cuota), el botón Calcular y el botón Limpiar. Al calcular aparece el resultado: total en cuotas, diferencia en dólares y diferencia en porcentaje.
+
+CONTROLES
+
+Con el teclado: escribo en los campos, Tab para pasar al siguiente, Enter para calcular.
+Con el dedo: toco un campo y se abre el teclado numérico, toco Calcular y toco Limpiar.
+
+COLORES Y QUÉ SIGNIFICAN
+
+Rojo: pagás de más (el resultado cuando la diferencia es mayor que cero).
+Verde: no pagás de más.
+Amarillo: aviso de dato inválido (campo vacío, cero o negativo).
+Fondo oscuro con texto claro: para que todo se lea bien.
+
+CRITERIO DE ACEPTACIÓN
+Abro la aplicación y veo los campos vacíos. Escribo 400 en el precio de contado, 12 en las cuotas y 40 en el valor de cada cuota. Toco Calcular y veo en rojo que en cuotas pago $480 en total, que son $80 de más, un 20 %. Toco Limpiar y todo vuelve a quedar vacío como al inicio.
+
+LO QUE NO VA
+
+Sin intereses compuestos ni tasa anual.
+Sin prima ni entrada.
+Sin guardar historial de compras.
+Sin comparar más de una oferta a la vez.
+Sin imágenes ni librerías externas.
