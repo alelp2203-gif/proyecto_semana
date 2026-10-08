@@ -14,7 +14,7 @@ Ejemplo: contado $400, 12 cuotas de $40; total $480, diferencia $80 (20 %).
 
 ## 3. ENLACE PARA ABRIRLO
 
-Enlace: [PENDIENTE: pegar aquí la dirección pública cuando publique]
+(http://10.255.1.43:5173/ )
 
 ## 4. CÓMO CORRERLO EN OTRA MÁQUINA
 
