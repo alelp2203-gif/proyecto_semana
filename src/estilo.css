@@ -29,7 +29,7 @@
 }
 
 body {
-  min-width: 320px;
+  width: 100%;
   min-height: 100vh;
   margin: 0;
 }
@@ -81,7 +81,7 @@ h1 {
 
 .campo input {
   width: 100%;
-  min-width: 0;
+  min-width: 44px;
   min-height: 56px;
   padding: 12px 14px;
   border: 2px solid var(--borde);
@@ -127,6 +127,7 @@ h1 {
 }
 
 .boton {
+  min-width: 44px;
   min-height: 54px;
   padding: 10px 22px;
   border: 2px solid transparent;

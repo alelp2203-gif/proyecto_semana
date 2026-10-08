@@ -53,7 +53,7 @@ app.innerHTML = `
             type="number"
             min="1"
             step="1"
-            inputmode="numeric"
+            inputmode="decimal"
             placeholder="12"
             autocomplete="off"
           />
